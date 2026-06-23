@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# FastAPI
+.pytest_cache/
+.coverage
+
+# Node
+node_modules/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.pid
+
+# Database
+*.sqlite
+*.db
+
+# Secrets
+.env*
+!.env.example
